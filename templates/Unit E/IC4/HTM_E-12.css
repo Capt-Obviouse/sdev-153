@@ -1,0 +1,71 @@
+/* 
+   Eating Well in Season style sheet 
+   Filename: styles.css
+
+   Author:   
+   Date:     
+   HTML5 and CSS3 Illustrated Unit E, Independent Challenge 4
+ */
+
+/* reset styles */
+article, body, div, footer, header, h1, h2, p {
+   border: 0;
+   padding: 0;
+   margin: 0;
+}
+
+/* body and page container */
+.container {
+   max-width: 800px;
+   margin: 0 auto;
+}
+
+/* header section */
+header {
+   padding: 0 1em;
+   text-align: center;
+}
+header h1 {
+   padding-top: 0.4em;
+}
+header p {
+   padding: 0.4em 0 0.8em;
+   color: floralwhite;
+}
+
+/* main content */
+article {
+   width: 62.5%;
+   float: left;
+   background-color: floralwhite;
+}
+article h2 {
+   margin: 0.4em 0.4em 0;
+}
+article p {
+   margin: 0 1em 0.4em 1.4em;
+}
+
+/* sidebar */
+aside {
+   width: 37.5%;
+   float: right;
+}
+aside h2 {
+   padding: 0.4em;
+}
+aside p {
+   padding-left: 1.4em;
+}
+
+/* footer section */
+footer {
+   padding: 0.6em;
+   background-color: black;
+   color: floralwhite;
+   text-align: center;
+   clear: both;
+}
+footer p {
+   margin: 0.4em;
+}
